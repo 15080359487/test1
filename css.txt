@@ -1,0 +1,246 @@
+body {
+    color: #000;
+    background: #fff;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    min-height: 101%;
+    background: url(https://www.320nle.com/acggirl/acgurl.php) 0% 0% / cover no-repeat fixed;
+}
+//https://www.320nle.com/acggirl/acgurl.php
+//https://i.loli.net/2019/10/11/XtAZJHUVb67aKy2.png
+#TopViewPostsBlock{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#wyy {
+    position: fixed;
+    top:360px;
+    left:1582px;
+    z-index: 1;
+}
+#Uright {
+    width: 100px;
+    height: 100px;
+    top: -75px;
+    right: 50px;
+}
+#Uleft, #Uright, #Dleft, #Dright {
+    -moz-transition-property: top;
+    -moz-transition-duration: 1s;
+    -webkit-transition-property: top;
+    -webkit-transition-duration: 1s;
+    -o-transition-property: top;
+    -o-transition-duration: 1s;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    line-height: 500px;
+    text-align: center;
+    z-index: 1;
+}
+#Uleft {
+    width: 80px;
+    height: 80px;
+    top: -60px;
+    left: 50px;
+}
+#Uleft, #Uright, #Dleft, #Dright {
+    -moz-transition-property: top;
+    -moz-transition-duration: 1s;
+    -webkit-transition-property: top;
+    -webkit-transition-duration: 1s;
+    -o-transition-property: top;
+    -o-transition-duration: 1s;
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    line-height: 500px;
+    text-align: center;
+    z-index: 1;
+}
+#blogTitle h1 {
+    font-size: 150%;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin-left: 250px;
+    margin-top: 40px;
+    width: 50%;
+    float: left;
+    display: inline;
+    letter-spacing: 1px;
+}
+#blogTitle h1 a, #blogTitle h2 {
+    color: #FFAED7;
+    font-family: "微软雅黑";
+    text-shadow: 5px 5px 3px #5151FF;
+    font-size: 30px;
+}
+/*background: rgba(105,145,214,0.6);*/
+#navigator {
+     background: rgba(105,145,214,0.6);
+    height: 60px;
+    clear: both;
+    margin-top: 60px;
+    position: relative;
+    border-radius: 5px;
+    border: 2px solid #bbe1f1;
+}
+
+#navList a:link, #navList a:visited, #navList a:active {
+    color: #5385CC;
+    text-shadow: 4px 4px 5px #86B8A9;
+    font-size: 20px;
+    font-weight: 600;
+}
+#navList a {
+    margin: 15px 10px 0 0;
+    padding: 0 10px;
+    font: 14px/1.5em "微软雅黑";
+    display: block;
+}
+
+/*background: rgba(105,145,214,0.6);*/
+#main {
+    min-width: 980px;
+    text-align: left;
+    clear: both;
+    background: rgba(105,145,214,0.4);
+    border-radius: 5px;
+}
+#TopViewPostsBlock{
+    display: block;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#sidebar_蛮不错的一个整合工具集的网站 ul {
+    line-height: 1.5em;
+    margin-left: 20px;
+}
+#mainContent {
+    min-height: 200px;
+    *padding-top: 10px;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: break-all;
+    float: left;
+    width: 800px;
+    background: rgba(105,145,214,0.4);
+}
+.dayTitle {
+    color: #609E89;
+    font-weight: bold;
+    line-height: 1.5em;
+    font-size: 110%;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    float: right;
+    position: relative;
+    top: 40px;
+    font-size: 18px;
+}
+/*238,250,255*/
+.day {
+    min-height: 10px;
+    _height: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    margin-top: 1em;
+    margin-right: 2em;
+    border: 2px solid #bbe1f1;
+    background-color: rgba(238,250,255,0.5);
+}
+#sideBarMain {
+    background: rgba(105,145,214,0.4);
+    border: 2px solid #bbe1f1;
+    margin-top: 10px;
+    width: 170px;
+}
+.postTitle {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 100px 10px 20px;
+    border-bottom: 1px solid #e0e0e0;
+    line-height: 1.5em;
+    clear: both;
+    border-left: 5px solid #1fa6e6;
+}
+.postCon {
+    float: right;
+    line-height: 1.5em;
+    width: 95%;
+    height: 50px;
+    clear: both;
+    padding: 10px 0;
+}
+.c_b_p_desc {
+    text-indent: 0;
+    font-size: 14px;
+}
+.postDesc {
+    float: none;
+    clear: both;
+    text-align: right;
+    padding-right: 5px;
+    color: #A56566;
+}
+.postDesc a:link, .postDesc a:visited, .postDesc a:active {
+    color: #2975E6;
+}
+.newsItem .catListTitle {
+    text-align: left;
+    padding: 5px 10px;
+    background: rgba(255,255,255,0.5);
+}
+.CalTitle {
+    width: 100%;
+    background: rgba(255,255,255,0.5);
+    color: #000;
+    border-bottom: 1px solid #666;
+}
+}
+.catListEssay h3, .catListLink h3, .catListNoteBook h3, .catListTag h3, .catListPostCategory h3, .catListPostArchive h3, .catListArticleArchive h3, .catListImageCategory h3, .mySearch h3, .catListComment h3, .catListView h3, .catListFeedback h3, #blog-sidecolumn .catListTitle {
+    text-align: left;
+    padding: 5px 10px;
+    background: rgba(255,255,255,0.5);
+    border-bottom: none;
+    border: 1px solid #ccc;
+}
+.catListEssay h3, .catListLink h3, .catListNoteBook h3, .catListTag h3, .catListPostCategory h3, .catListPostArchive h3, .catListArticleArchive h3, .catListImageCategory h3, .mySearch h3, .catListComment h3, .catListView h3, .catListFeedback h3, #blog-sidecolumn .catListTitle {
+    text-align: left;
+    padding: 5px 10px;
+    background: rgba(255,255,255,0.5);
+    border-bottom: none;
+    border: 1px solid #ccc;
+}
+.mySearch .input_my_zzk {
+    height: 1.4em;
+    width: 100px;
+    background: rgba(255,255,255,0.5);
+  border-radius: 5px;
+}
+input.btn_my_zzk {
+    vertical-align: middle;
+    height: 22px;
+    font-size: 12px;
+    padding-left: 5px;
+    background: rgba(187,225,241,0.5);
+    padding-right: 5px;
+    border-radius: 5px;
+}
+.catListEssay ul li, .catListLink ul li, .catListNoteBook ul li, .catListTag ul li, .catListPostCategory ul li, .catListPostArchive ul li, .catListArticleArchive ul li, .catListImageCategory ul li, .mySearch ul li, .catListComment ul li, .catListView ul li, .catListFeedback ul li {
+    margin: .5em;
+    height: 20px;
+    font-size: 12px;
+}
+.pager {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: rgba(124,145,213,0.8);
+    border-radius: 6px;
